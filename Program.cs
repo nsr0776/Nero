@@ -81,17 +81,10 @@ namespace Nero
 
         static void Main(string[] args)
         {
-            //Test();
             Initialize();
 
             var repl = new DriverLoop();
             repl.Run();
-        }
-
-        static void Test()
-        {
-            var a = new List<int> { 3, 4, 7 };
-            
         }
     }
 
