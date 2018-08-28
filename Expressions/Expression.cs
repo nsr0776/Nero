@@ -14,6 +14,6 @@ namespace Nero
         /// </summary>
         /// <param name="env">The environment for evaluation.</param>
         /// <returns></returns>
-        public abstract IValue Evaluate(Environment env);
+        public abstract Bounce Evaluate(Environment env, Continuation cont);
     }
 }

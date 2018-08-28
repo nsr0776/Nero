@@ -46,7 +46,7 @@ namespace Nero
             }
             else
             {
-                // Example (define (foo x y) (+ x y))
+                // Example: (define (foo x y) (+ x y))
 
                 var procNameAndParams =
                      from item in ((SList)expr[1]).Cast<SAtom>()
