@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Continuations\Continuation.cs" />
+    <Compile Include="Continuations\EndContinuation.cs" />
+    <Compile Include="Bounce.cs" />
     <Compile Include="Literals\Boolean.cs" />
     <Compile Include="Literals\Number.cs" />
     <Compile Include="Literals\String.cs" />
